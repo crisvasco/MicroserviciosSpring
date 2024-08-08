@@ -1,0 +1,5 @@
+INSERT INTO clients (name, last_name, email, phone, banco_id, cuenta_id, tarjeta_id, prestamo_id, notificacion_id, dinero_id) VALUES ('Juan', 'Perez', 'jua.perez@example.com',0980491216, 1, 2,1,2,5,1);
+INSERT INTO clients (name, last_name, email, phone, banco_id, cuenta_id, tarjeta_id, prestamo_id, notificacion_id, dinero_id) VALUES ('María', 'González', 'mar.gon@example.com',0987652314, 2,1,2,3,4,2);
+INSERT INTO clients (name, last_name, email, phone, banco_id, cuenta_id, tarjeta_id, prestamo_id, notificacion_id, dinero_id) VALUES ('Carlos', 'López', 'car.lop@example.com',0927161213, 3,4,3,4,1,4);
+INSERT INTO clients (name, last_name, email, phone, banco_id, cuenta_id, tarjeta_id, prestamo_id, notificacion_id, dinero_id) VALUES ('Ana', 'Martínez', 'ana.mar@example.com',0987562412, 1,3,4,5,2,5);
+INSERT INTO clients (name, last_name, email, phone, banco_id, cuenta_id, tarjeta_id, prestamo_id, notificacion_id, dinero_id) VALUES ('Pedro', 'Sánchez', 'pedro.san@example.com',0976211417, 4,5,5,1,2,3);

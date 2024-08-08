@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-banco/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-cuenta/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-dinero/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-notificacion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-prestamo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/microservice-tarjeta/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroserviciosSpring/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

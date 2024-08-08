@@ -1,0 +1,97 @@
+services:
+  db:
+    image: mysql:8.0.28
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'autorDB'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - '3307:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+
+  db3:
+    image: mysql:8.0.28
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'editorialDB'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - '3309:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db3:/var/lib/mysql
+
+  db4:
+    image: mysql:8.0.28
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'libreriaDB'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - '3310:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db4:/var/lib/mysql
+  db5:
+    image: mysql:8.0.28
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'libroDB'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - '3311:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db5:/var/lib/mysql
+
+  db6:
+    image: mysql:8.0.28
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'ordenDB'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - '3312:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db6:/var/lib/mysql
+  db7:
+    image: mysql:8.0.28
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'proveedorDB'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: '1234'
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      - '3313:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db7:/var/lib/mysql
+
+volumes:
+  my-db:
+  my-db2:
+  my-db3:
+  my-db4:
+  my-db5:
+  my-db6:
+  my-db7:

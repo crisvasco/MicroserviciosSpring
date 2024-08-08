@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: msvc-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: clients
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/v1/client/**
+        - id: bancos
+          uri: http://localhost:9090
+          predicates:
+            - Path=/api/v1/banco/**
+        - id: cuenta
+          uri: http://localhost:8091
+          predicates:
+            - Path=/api/v1/cuenta/**
+        - id: tarjeta
+          uri: http://localhost:8092
+          predicates:
+            - Path=/api/v1/tarjeta/**
+        - id: notificacion
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/v1/notificacion/**
+        - id: dinero
+          uri: http://localhost:9091
+          predicates:
+            - Path=/api/v1/dinero/**
+        - id: prestamo
+          uri: http://localhost:9092
+          predicates:
+            - Path=/api/v1/prestamo/**
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-gateway" />
+        <module name="microservice-banco" />
+        <module name="microservice-notificacion" />
+        <module name="microservice-config" />
+        <module name="microservice-prestamo" />
+        <module name="microservice-client" />
+        <module name="microservice-cuenta" />
+        <module name="microservice-eureka" />
+        <module name="microservice-dinero" />
+        <module name="microservice-tarjeta" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservice-banco" options="-parameters" />
+      <module name="microservice-client" options="-parameters" />
+      <module name="microservice-config" options="-parameters" />
+      <module name="microservice-cuenta" options="-parameters" />
+      <module name="microservice-dinero" options="-parameters" />
+      <module name="microservice-eureka" options="-parameters" />
+      <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-notificacion" options="-parameters" />
+      <module name="microservice-prestamo" options="-parameters" />
+      <module name="microservice-tarjeta" options="-parameters" />
+    </option>
+  </component>
+</project>
